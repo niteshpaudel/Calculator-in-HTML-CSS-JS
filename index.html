@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="toggle-theme">
+            <div class="theme-indicator">
+                <div class="theme-icon-container">
+                    <i class="fa-solid fa-sun theme-icon"> </i>
+                </div>
+            </div>
+        </div>
+        <div class="calculator-screen">
+            <div class="result">
+                <div class="input">
+                    <span>00</span>
+                </div>
+                <div class="output">
+                    <span>00</span>
+                </div>
+            </div>
+        </div>
+        <div class="calculator-buttons">
+            <div input-key="clear" class="no-style-button input-key">AC</div>
+            <div input-key="backspace" class="no-style-button input-key"><i style="font-size: 1rem;" class="fa-solid fa-chevron-left"></i></div>
+            <div input-key="%" class="no-style-button input-key">%</div>
+            <div input-key="/" style="font-size: 1.7rem; font-weight: 300;" class="no-style-button input-key">÷</div>
+            <div input-key="7" class="button input-key">7</div>
+            <div input-key="8" class="button input-key">8</div>
+            <div input-key="9" class="button input-key">9</div>
+            <div input-key="*" style="font-size: 1.6rem; font-weight: 300;" class="no-style-button input-key">x</div>
+            <div input-key="4" class="button input-key">4</div>
+            <div input-key="5" class="button input-key">5</div>
+            <div input-key="6" class="button input-key">6</div>
+            <div input-key="-" class="no-style-button input-key">—</div>
+            <div input-key="1" class="button input-key">1</div>
+            <div input-key="2" class="button input-key">2</div>
+            <div input-key="3" class="button input-key">3</div>
+            <div input-key="+" style="font-size: 1.7rem; font-weight: 300;" class="no-style-button input-key">+</div>
+            <div input-key="brackets" class="button input-key">( )</div>
+            <div input-key="0" class="button input-key">0</div>
+            <div input-key="." class="button input-key">.</div>
+            <div input-key="=" style="font-size: 1.5rem;" class="equal-sign button input-key">=</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
